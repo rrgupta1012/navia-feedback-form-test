@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>feedback-form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script   src="javascript/custom.js"></script>
+    <link rel="stylesheet" href="css/feedbackform.css"/>
+  </head>
+  <body>
+
+    
+    <div class="container-fluid outer-wrapper" >
+
+
+      <!--feedback header start-->
+      <div class="container-fluid header" >
+        <div class="row">
+          <div class="col-md-5 col-xs-4">
+            <img src="images/download.png" alt="brand-image">
+          </div>
+          <div class="col-md-7 col-xs-8">
+            <h3>Please Fill Your Feedback</h3>
+          </div>
+        </div>
+      </div>
+      <!--feedback header end-->
+
+      <!--feedback form start-->
+      <div class="container form-wrapper" id="form-wrapper1" >
+        
+        <form class="form-inline" id="feedbackform" name="feedbackform" action="" method="post" role="form" >
+          
+          <div class="form-group col-md-4">
+            <input type="text" class="form-control form-members-size" id="name" placeholder="name" name="name" >
+          </div>
+          <div class="form-group col-md-4">
+           <input type="email" class="form-control form-members-size " id="email" placeholder="email id" name="email">
+          </div>
+          <div class="form-group col-md-4">
+            
+            <input type="text" class="form-control form-members-size" id="contactnumber" placeholder="contact number" name="contact-number">
+          </div>
+          <br>
+          
+          <div class="form-group col-md-4">
+            <h4>  Status:</h4>
+            <input type="text" class="form-control form-members-size" id="status" placeholder="200" name="patient-status" ">
+          </div>
+          <div class="form-group col-md-4">
+            <h4> Result:</h4>
+            <input type="text" class="form-control form-members-size" id="result-of-patient" placeholder="successfull or not successfull" name="result" ">
+          </div>
+          
+          
+          
+          <div class="form-group col-md-4 rating-style"  >
+            <h3>Rate Our Doctor:</h3>
+            <input type="radio"   id="rate-poor" placeholder="" name="rate-poor">Not Satisfactory</br>
+            <input type="radio"   id="rate-poor" placeholder="" name="rate-poor">Average  </br>
+            <input type="radio"   id="rate-poor" placeholder="" name="rate-poor">Good</br>
+            <input type="radio"   id="rate-poor" placeholder="" name="rate-poor">Very Good</br>
+            <input type="radio"   id="rate-poor" placeholder="" name="rate-poor">Excellent </br>
+          </div>
+          
+          
+          
+          <div class="col-md-4 col-sm-3"></div>
+          <div class="form-group col-md-4 col-sm-6" id="gh">
+            
+            <input type="submit" class="form-control form-members-size submit-button" id="submit" value="submit" name="submit-form">
+          </div>
+          <div class="col-md-4 col-sm-3"></div>
+        </div>
+        
+      </form>
+    </div>
+    <!--feedback form end-->
+
+  </div>
+  
+  
+  
+</body>
+</html>
